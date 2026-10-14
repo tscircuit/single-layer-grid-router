@@ -1,0 +1,73 @@
+{
+  "layerCount": 1,
+  "minTraceWidth": 0.2,
+  "bounds": {
+    "minX": -4,
+    "maxX": 4,
+    "minY": -4,
+    "maxY": 4
+  },
+  "obstacles": [],
+  "connections": [
+    {
+      "name": "n0",
+      "pointsToConnect": [
+        {
+          "x": 1,
+          "y": 2,
+          "layer": "top"
+        },
+        {
+          "x": 1,
+          "y": -1,
+          "layer": "top"
+        }
+      ]
+    },
+    {
+      "name": "n1",
+      "pointsToConnect": [
+        {
+          "x": 1,
+          "y": 2,
+          "layer": "top"
+        },
+        {
+          "x": 2,
+          "y": -1,
+          "layer": "top"
+        }
+      ]
+    },
+    {
+      "name": "n2",
+      "pointsToConnect": [
+        {
+          "x": -1,
+          "y": -1,
+          "layer": "top"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "layer": "top"
+        }
+      ]
+    },
+    {
+      "name": "n3",
+      "pointsToConnect": [
+        {
+          "x": -1,
+          "y": -3,
+          "layer": "top"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "layer": "top"
+        }
+      ]
+    }
+  ]
+}
